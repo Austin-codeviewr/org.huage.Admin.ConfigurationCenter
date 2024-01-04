@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GSjGqQHTGdKXKa20glE1kOacwcrkrlwTXE5r+4yH6Fo=",
+  "Source": "org.huage.Admin.Configuration.Api",
+  "BasePath": "_content/org.huage.Admin.Configuration.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

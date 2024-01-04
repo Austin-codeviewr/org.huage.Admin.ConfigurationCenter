@@ -1,0 +1,6 @@
+@org.huage.Admin.Configuration.Api_HostAddress = http://localhost:5003
+
+GET {{org.huage.Admin.Configuration.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
