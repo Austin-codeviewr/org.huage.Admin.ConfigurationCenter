@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Threading.Channels;
+using Microsoft.AspNetCore.Mvc;
 
 namespace org.huage.Admin.Configuration.Api.controller;
 
@@ -10,5 +11,19 @@ namespace org.huage.Admin.Configuration.Api.controller;
 [Route("api/[controller]/[action]")]
 public class ConfigurationController : ControllerBase
 {
+    public void TestChannel()
+    {
+        
+        var channel = Channel.CreateBounded<int>(new BoundedChannelOptions(100)
+        {
+            FullMode = BoundedChannelFullMode.Wait,
+            /*否是单一的消费者或者生产者
+            SingleReader = true,
+            SingleWriter = true*/
+        });
+
+        //channel.Writer.TryWrite("test");
+
+    }
     
 }
