@@ -31,3 +31,8 @@ F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration
 F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\obj\Debug\net8.0\org.huage.Admin.Configuration.Api.pdb
 F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\obj\Debug\net8.0\org.huage.Admin.Configuration.Api.genruntimeconfig.cache
 F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\obj\Debug\net8.0\ref\org.huage.Admin.Configuration.Api.dll
+F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\bin\Debug\net8.0\org.huage.Admin.Configuration.Entity.dll
+F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\bin\Debug\net8.0\org.huage.Admin.Configuration.Manager.dll
+F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\bin\Debug\net8.0\org.huage.Admin.Configuration.Entity.pdb
+F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\bin\Debug\net8.0\org.huage.Admin.Configuration.Manager.pdb
+F:\SelfProject\org.huage.Admin.ConfigurationCenter\org.huage.Admin.Configuration.Api\obj\Debug\net8.0\org.huage.Admin.Configuration.Api.sourcelink.json

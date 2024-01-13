@@ -107,6 +107,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "org.huage.Admin.Configuration.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/org.huage.Admin.Configuration.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/org.huage.Admin.Configuration.Entity.dll": {}
+        }
+      },
+      "org.huage.Admin.Configuration.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "org.huage.Admin.Configuration.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/org.huage.Admin.Configuration.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/org.huage.Admin.Configuration.Manager.dll": {}
+        }
       }
     }
   },
@@ -451,12 +474,24 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "org.huage.Admin.Configuration.Entity/1.0.0": {
+      "type": "project",
+      "path": "../org.huage.Admin.Configuration.Entity/org.huage.Admin.Configuration.Entity.csproj",
+      "msbuildProject": "../org.huage.Admin.Configuration.Entity/org.huage.Admin.Configuration.Entity.csproj"
+    },
+    "org.huage.Admin.Configuration.Manager/1.0.0": {
+      "type": "project",
+      "path": "../org.huage.Admin.Configuration.Manager/org.huage.Admin.Configuration.Manager.csproj",
+      "msbuildProject": "../org.huage.Admin.Configuration.Manager/org.huage.Admin.Configuration.Manager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "org.huage.Admin.Configuration.Entity >= 1.0.0",
+      "org.huage.Admin.Configuration.Manager >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -485,7 +520,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\SelfProject\\org.huage.Admin.ConfigurationCenter\\org.huage.Admin.Configuration.Entity\\org.huage.Admin.Configuration.Entity.csproj": {
+              "projectPath": "F:\\SelfProject\\org.huage.Admin.ConfigurationCenter\\org.huage.Admin.Configuration.Entity\\org.huage.Admin.Configuration.Entity.csproj"
+            },
+            "F:\\SelfProject\\org.huage.Admin.ConfigurationCenter\\org.huage.Admin.Configuration.Manager\\org.huage.Admin.Configuration.Manager.csproj": {
+              "projectPath": "F:\\SelfProject\\org.huage.Admin.ConfigurationCenter\\org.huage.Admin.Configuration.Manager\\org.huage.Admin.Configuration.Manager.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

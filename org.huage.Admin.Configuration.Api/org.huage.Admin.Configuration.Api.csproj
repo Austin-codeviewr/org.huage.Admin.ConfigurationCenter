@@ -16,4 +16,9 @@
       <Folder Include="extension\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\org.huage.Admin.Configuration.Entity\org.huage.Admin.Configuration.Entity.csproj" />
+      <ProjectReference Include="..\org.huage.Admin.Configuration.Manager\org.huage.Admin.Configuration.Manager.csproj" />
+    </ItemGroup>
+
 </Project>
