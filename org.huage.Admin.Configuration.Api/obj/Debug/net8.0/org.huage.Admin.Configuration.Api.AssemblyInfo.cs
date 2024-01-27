@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("org.huage.Admin.Configuration.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f01258aaf40862a16cd7115aa244c370e5ce3021")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6373af7d489b5705b8c24c5dcda94480fe4a446")]
 [assembly: System.Reflection.AssemblyProductAttribute("org.huage.Admin.Configuration.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("org.huage.Admin.Configuration.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

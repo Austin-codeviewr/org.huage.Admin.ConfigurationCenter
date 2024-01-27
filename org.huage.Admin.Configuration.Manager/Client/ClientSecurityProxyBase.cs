@@ -9,4 +9,9 @@ public class ClientSecurityProxyBase : IClientSecurityProxy
     {
         throw new NotImplementedException();
     }
+
+    public virtual Task ExportConfiguration(List<ConfigurationBase> configuration)
+    {
+        throw new NotImplementedException();
+    }
 }
